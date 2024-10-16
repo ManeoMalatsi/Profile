@@ -118,10 +118,10 @@ section
 {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .aboutmain img{
-    width: 20vw;
+    width: 35vw;
     border-radius: 50%;
 }
 /* Contact Form start*/
