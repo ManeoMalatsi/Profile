@@ -81,24 +81,6 @@ li a:hover::before
 {
     width: 100%;
 }
-
-.visitmylink
-{
-    padding: 0.8rem 1.5rem;
-    border-radius: 3rem;
-    border: none;
-    font-family: 500;
-    color: white;
-    cursor: pointer;
-    text-wrap: nowrap;
-    transition: 0.3s ease-in-out;
-    background: linear-gradient(to right,rgba(0, 157, 255), rgba(255, 0, 255));
-}
-.visitmylink:hover
-{
-    background: linear-gradient(to right,rgba(0, 157, 255), rgba(255, 0, 255));
-    transform: scale(1.07);
-}
 #menu-icon
 {
     font-size: 2rem;
@@ -239,20 +221,27 @@ body {
     color: grey;
   }
   
-  .button {
-    border: none;
-    outline: 0;
+  .btn-group{
     display: inline-block;
-    padding: 8px;
+    padding: 10px 30px;
+    border: 2px solid black;
+    border-radius: 40px;
+    box-shadow: 0 0 10px black;
+    font-size: 16px;
     color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
+    font-weight: 600;
+    transition: .5s;
   }
   
-  .button:hover {
-    background-color: #555;
+  .btn-group:hover {
+    background: transparent;
+    color: black;
+    box-shadow: none;
+  }
+
+  .social i{
+    width: 50px;
+    height: 50px;
   }
   
   @media screen and (max-width: 650px) {
