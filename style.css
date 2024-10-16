@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins';
+    font-family: cursive;
     text-decoration: none;
     scroll-behavior: smooth;
     list-style: none;
@@ -234,7 +234,7 @@ body {
   }
   
   .btn-group:hover {
-    background: transparent;
+    background: black;
     color: black;
     box-shadow: none;
   }
@@ -242,6 +242,7 @@ body {
   .social i{
     width: 50px;
     height: 50px;
+    padding-left: 30px;
   }
   
   @media screen and (max-width: 650px) {
