@@ -101,7 +101,7 @@ section
 {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
 }
 .aboutmain img{
     width: 35vw;
