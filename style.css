@@ -20,7 +20,6 @@ body {
 /* header and navigation Bar start */
 header
 {
-    position: fixed;
     top: 1rem;
     left: 25%;
     background-color: black;
@@ -145,7 +144,7 @@ section
   
   .col-25 {
     float: left;
-    width: 25%;
+    width: 26%;
     margin-top: 6px;
   }
   
