@@ -135,10 +135,7 @@ section
     cursor: pointer;
     float: right;
   }
-  
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
+
   
   .container {
     border-radius: 5px;
@@ -243,6 +240,8 @@ body {
     color: black;
     box-shadow: none;
   }
+
+
 
   .social i{
     width: 50px;
