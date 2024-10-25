@@ -33,9 +33,12 @@ header
     padding: 0.5rem 1.5rem;
     border-radius: 4rem;
     z-index: 1000;
+    font-size: 20px;
 }
 /* header and navigation Bar end */
-
+h2{
+  padding-left: 50px;
+}
 /* logo start*/
 .slogo
 {
@@ -44,6 +47,7 @@ header
     font-weight: 600;
     text-wrap: nowrap;
     transition: 0.3 ease-in-out;
+    font-size: 20px;
 }
 .slogo:hover
 {
@@ -74,7 +78,7 @@ li a::before
     top: 25px;
     border-radius: 1rem;
     transition: 0.3s ease-in-out;
-    background: linear-gradient(to right,rgba(0, 157, 255), rgba(255, 0, 255));
+    background: white;
 }
 li a:hover::before
 {
@@ -90,7 +94,7 @@ li a:hover::before
 /* About Section start*/
 section
 {
-    margin-top: 80px;
+    margin-top: 15px;
     padding: 0 12%;
     width: 100%;
     position: relative;
