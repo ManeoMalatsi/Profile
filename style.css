@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url('lol.png');
+    background-color: #211457af;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -22,7 +22,6 @@ header
 {
     top: 1rem;
     left: 25%;
-    background-color: black;
     transform: translateX(-50);
     display: flex;
     align-items: center;
