@@ -263,3 +263,43 @@ body {
     }
   }
   /*Experience and skills end*/
+
+  /* Skills bar*/
+  * {box-sizing: border-box}
+
+.containerskills{
+  width: 50%;
+  background-color: #ddd;
+  border-radius: 3rem;
+  border: 2px solid #fb8500;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  padding: 10px;
+  border-radius: 3rem;
+}
+
+.html {width: 100%; background-color:#fb8500; }
+.css {width: 80%; background-color: #fb8500;}
+.js {width: 65%; background-color:#fb8500;}
+.php {width: 60%; background-color:#fb8500;}
+
+.center {
+ padding-left: 320px;
+
+}
+
+  /* Skills bar ends*/
+  footer {
+
+    padding-top: 10px;
+  }
+  .paragraph
+  {
+    display: flex;
+    margin-left: 100px;
+  }
