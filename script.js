@@ -11,6 +11,8 @@ const responses = {
 function toggleChatbot() {
     const chatbotContainer = document.getElementById("chatbot-container");
     chatbotContainer.style.display = chatbotContainer.style.display === "none" ? "flex" : "none";
+    
+    
 }
 
 // Function to handle sending messages
@@ -27,6 +29,8 @@ function sendMessage() {
     // Display chatbot response
     const botMessage = document.createElement("div");
     botMessage.textContent = "Bot: " + (responses[userInput] || responses["default"]);
+    
+    botMessage.style.color = "#fb8500";
     chatbotMessages.appendChild(botMessage);
 
     chatbotMessages.scrollTop = chatbotMessages.scrollHeight;
