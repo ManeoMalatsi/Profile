@@ -11,8 +11,6 @@ const responses = {
 function toggleChatbot() {
     const chatbotContainer = document.getElementById("chatbot-container");
     chatbotContainer.style.display = chatbotContainer.style.display === "none" ? "flex" : "none";
-    
-    
 }
 
 // Function to handle sending messages
