@@ -19,6 +19,7 @@ IMG_9045.jpg      # Image used in the About Me section
 Profile.pdf       # PDF file containing my CV
 images/           # Directory for storing images
 privacy-policy.html # Privacy Policy page
+script.js           # Chatbot
 
 ## Technologies used
 
