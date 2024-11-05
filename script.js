@@ -1,8 +1,11 @@
 // Predefined chatbot responses
 const responses = {
-    "hello": "Hi there! How can I assist you today?",
-    "experience": "I have experience in cybersecurity and mainframe programming through the Absa COBOL program.",
+    "hello": "Hello there! How can I assist you today?",
+    "hi": "Hi there! How can I assist you today?",
+    "experience": "I have experience in Information Systems and currently learning mainframe programming through the Absa COBOL program.",
     "contact": "You can reach me through the Contact section in the navigation menu!",
+    "education": "You can browse through my experience page and you will find my education history.",
+    "skills": "You can browse through my experience page and you will find the programming languages that I am proficient with.",
     "cv": "You can download my CV by clicking on the 'See my CV' button in the About section.",
     "default": "I'm here to help! Ask me about my experience, skills, or contact information."
 };
