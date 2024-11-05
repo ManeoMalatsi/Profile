@@ -8,6 +8,7 @@
 <!---small icon -->
 <link rel="icon" type="image/x-icon" href="images\blue shirt.jpg">
 <link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
 <!-- css and html link-->
 <!-- link for the fonts from font-awesome-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
@@ -108,11 +109,29 @@
   </form>
 </div>
 
+<!-- Chatbot container -->
+<div class="chatbot-container" id="chatbot-container">
+  <div class="chatbot-header">
+      <h4><font color="#211457af">Chat</font>  <font color="white">With</font> <font color="#211457af">Me</font></h4>
+  <a href="Contact.html"> <button onclick="toggleCha+tbot()">X</button></a>
+  </div>
+  <div class="chatbot-messages" id="chatbot-messages"></div>
+  <div class="chatbot-input">
+      <input type="text" id="user-input" placeholder="Type your message here..." onkeypress="handleKeyPress(event)">
+      <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<!-- Chatbot Icon -->
+<div class="chatbot-icon" onclick="toggleChatbot()">
+  <i class="fa fa-comments"></i>
+</div>
+
+
 <div class="Contact">
   <a style="color:#fb8500" href="tel:+27810047205"><i class="fa fa-phone"></i>+27810047205</a>
   <a style="color:#fb8500" href="mailto:neozampho38@gmail.com"><i class="fa fa-envelope"></i>neozampho38@gmail.com </a>
 </div>
-
 
 
 <footer>
