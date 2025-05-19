@@ -107,7 +107,8 @@ section
 }
 .aboutmain img{
     width: 30vw;
-    border-radius: 50%;
+    border-radius: 20%;
+
 }
 /* Contact Form start*/
 
@@ -235,6 +236,8 @@ body {
     color: white;
     font-weight: 600;
     transition: .5s;
+    margin-left: 30%;
+   
   }
   
   .btn-group:hover {
@@ -379,4 +382,12 @@ body {
 .chatbot-icon i {
   color: white;
   font-size: 24px;
+}
+
+.profile-photo {
+  width: 800px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
 }
