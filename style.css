@@ -25,12 +25,12 @@ header
     transform: translateX(-50);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 5rem;
     padding: 500px;
     backdrop-filter: blur(8px);
     color: white;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 13.5rem;
     border-radius: 4rem;
     z-index: 1000;
     font-size: 20px;
@@ -139,12 +139,17 @@ section
     float: right;
   }
 
-  
+  .skills-div{
+    display: flex;
+  }
   .container {
     border-radius: 5px;
     
   }
-  
+  .skills-center{
+    width: 100%;
+        margin: 3em;
+  }
   .col-25 {
     float: left;
     width: 26%;
@@ -283,7 +288,7 @@ body {
   * {box-sizing: border-box}
 
 .containerskills{
-  width: 50%;
+ 
   background-color: #ddd;
   border-radius: 3rem;
   border: 2px solid #fb8500;
@@ -303,10 +308,10 @@ body {
 .js {width: 40%; background-color:#fb8500;}
 .csharp {width: 60%; background-color:#fb8500;}
 
-.center {
+/* .center {
  padding-left: 320px;
 
-}
+} */
 
   /* Skills bar ends*/
   footer {
