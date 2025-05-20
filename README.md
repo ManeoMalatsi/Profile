@@ -1,40 +1,82 @@
-# Maneo Malatsi Personal Portfolio
+# Maneo Malatsi | Personal Portfolio
 
-My personal portfolio website, a future Cybersecurity Analyst. This website contains information about my experience, contact details, and links to social media profiles.
+Welcome to my personal portfolio website! This project showcases my background, experience, skills, and current focus as a developing IT professional.
 
-# Deployment Link 
-https://profile-21smxb37c-maneomalatsis-projects.vercel.app/
+## 🌐 Live Preview
 
-## Features
+You can view the live site here: [Maneo Malatsi Portfolio](#) <!-- Add your deployment URL here if hosted -->
 
-- **Header with Navigation**: Contains a logo and navigation links to different sections of the website.
-- **About Me Section**: Provides a brief introduction about me, including a link to download the CV.
-- **Social Media Links**: Links to LinkedIn, Instagram, and GitHub profiles with interactive icons.
-- **Footer**: A footer with copyright information and a link to the privacy policy.
+---
 
-## File Structure
+## 📌 About Me
 
-Home.html        # Main HTML file
-Experience.html   # Page containing experience information
-Contact.html      # Contact page
-style.css         # CSS file for styling the website
-IMG_9045.jpg      # Image used in the About Me section
-Profile.pdf       # PDF file containing my CV
-images/           # Directory for storing images
-privacy-policy.html # Privacy Policy page
-script.js           # Chatbot
+I am an IT graduate with real-world experience in software support, development, and system administration. I’ve contributed to projects in educational tech support, application development, and data security. Currently, I’m part of the **Absa COBOL Program**, gaining specialized skills in COBOL and mainframe system modernization.
 
-## Technologies used
+---
 
-HTML5: For structuring the content on the web pages.
-CSS3: For styling and layout.
-Font Awesome: For social media icons and other visual elements.
+## 💼 Features
 
-## How to use
+- 🔹 Responsive HTML/CSS layout
+- 🔹 Clean UI design
+- 🔹 Experience, Education, and Skills sections
+- 🔹 CV download link
+- 🔹 Social media integration (LinkedIn, GitHub)
 
-git clone https://github.com/ManeoMalatsi/Profile.git
-Open the home.html file in your preferred web browser to view the site.
+---
+
+## 🤖 Chatbot Project
+
+As part of enhancing interactivity and exploring automation in web development, I’ve started working on a **personal chatbot** integrated into my portfolio. The chatbot is designed to:
+
+- Answer common questions about my background and experience
+- Guide users to relevant portfolio sections
+- Offer downloadable resources like my CV
+- Showcase JavaScript-based interaction and future AI integration plans
+
+The chatbot aims to improve user engagement on the site.
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- Font Awesome
+- Visual Studio Code
+
+---
+
+/project-root
+│
+├── index.html # Main homepage
+├── Experience.html # Work experience details
+├── Contact.html # Contact information
+├── style.css # Custom styles
+├── images/ # Profile photo and favicon
+├── Chatbot (for interactive user engagement)
+└── Profile.pdf # Downloadable CV
+
+1. Clone the repository:
+
+git clone https://github.com/ManeoMalatsi/Portfolio.git
+
+2. Open the folder in your editor (e.g., VS Code)
+
+3. Launch `index.html` in your browser
+
+---
+
+## 📫 Contact
+
+Feel free to connect with me on:
+
+- [LinkedIn](https://www.linkedin.com/in/agnes-malatsi-2a4584231/)
+- [GitHub](https://github.com/ManeoMalatsi)
+
+---
+
+## ©️ License
+
+This project is for personal use and display purposes only. Please do not reuse content without permission.
 
 
-This README file provides a brief overview of my portfolio website, explains its structure, and includes instructions for cloning and running the project.
+
 
