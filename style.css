@@ -25,12 +25,12 @@ header
     transform: translateX(-50);
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 5rem;
     padding: 500px;
     backdrop-filter: blur(8px);
     color: white;
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 13.5rem;
     border-radius: 4rem;
     z-index: 1000;
     font-size: 20px;
@@ -107,7 +107,8 @@ section
 }
 .aboutmain img{
     width: 30vw;
-    border-radius: 50%;
+    border-radius: 20%;
+
 }
 /* Contact Form start*/
 
@@ -138,12 +139,17 @@ section
     float: right;
   }
 
-  
+  .skills-div{
+    display: flex;
+  }
   .container {
     border-radius: 5px;
     
   }
-  
+  .skills-center{
+    width: 100%;
+        margin: 3em;
+  }
   .col-25 {
     float: left;
     width: 26%;
@@ -235,6 +241,8 @@ body {
     color: white;
     font-weight: 600;
     transition: .5s;
+    margin-left: 30%;
+   
   }
   
   .btn-group:hover {
@@ -246,10 +254,21 @@ body {
   .social i{
     width: 50px;
     height: 50px;
-    padding-left: 30px;
+    padding-left: 10px;
+    margin: 20px;
+    font-size: 30px;
+    gap: 5%; /* controls space between icons */
+    
   }
   
-
+.social{
+      display: flex
+;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
   
   .Contact i{
     width: 50px;
@@ -269,7 +288,7 @@ body {
   * {box-sizing: border-box}
 
 .containerskills{
-  width: 50%;
+ 
   background-color: #ddd;
   border-radius: 3rem;
   border: 2px solid #fb8500;
@@ -289,10 +308,10 @@ body {
 .js {width: 40%; background-color:#fb8500;}
 .csharp {width: 60%; background-color:#fb8500;}
 
-.center {
+/* .center {
  padding-left: 320px;
 
-}
+} */
 
   /* Skills bar ends*/
   footer {
@@ -379,4 +398,12 @@ body {
 .chatbot-icon i {
   color: white;
   font-size: 24px;
+}
+
+.profile-photo {
+  width: 800px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
 }
