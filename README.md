@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my background, 
 
 ## 🌐 Live Preview
 
-You can view the live site here: [Maneo Malatsi Portfolio](#) <!-- Add your deployment URL here if hosted -->
+You can view the live site here: https://maneomalatsi.github.io/Profile/
 
 ---
 
